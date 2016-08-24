@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC00606E1D6D2C24008D3AC6 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = AC00606D1D6D2C24008D3AC6 /* Calculator.m */; };
 		ACFC352C1D6D20FF00437735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC352B1D6D20FF00437735 /* main.m */; };
 		ACFC352F1D6D20FF00437735 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC352E1D6D20FF00437735 /* AppDelegate.m */; };
 		ACFC35321D6D20FF00437735 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACFC35311D6D20FF00437735 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC00606C1D6D2C24008D3AC6 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		AC00606D1D6D2C24008D3AC6 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		ACFC35271D6D20FF00437735 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFC352B1D6D20FF00437735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ACFC352D1D6D20FF00437735 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		ACFC35291D6D20FF00437735 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				AC00606C1D6D2C24008D3AC6 /* Calculator.h */,
+				AC00606D1D6D2C24008D3AC6 /* Calculator.m */,
 				ACFC352D1D6D20FF00437735 /* AppDelegate.h */,
 				ACFC352E1D6D20FF00437735 /* AppDelegate.m */,
 				ACFC35301D6D20FF00437735 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFC35321D6D20FF00437735 /* ViewController.m in Sources */,
+				AC00606E1D6D2C24008D3AC6 /* Calculator.m in Sources */,
 				ACFC352F1D6D20FF00437735 /* AppDelegate.m in Sources */,
 				ACFC352C1D6D20FF00437735 /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				ACFC35401D6D20FF00437735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
